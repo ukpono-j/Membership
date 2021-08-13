@@ -1,0 +1,116 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Roboto:wght@500&display=swap');
+
+.hero_1{
+    background-image: url(/src/components/aboutpage/images/about-global.jpg);
+    color: rgb(178, 178, 178);
+    background-blend-mode: soft-light;
+
+    /* background: rgba(0, 0, 0, .100); */
+}
+/* .hero_1::before{
+    background-color: rgba(0, 0, 0, 0.50);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+} */
+.sectionOne{
+    height: 70vh;
+    width: 100%;
+    color:rgb(178, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: green; */
+
+    padding: 60px;
+}
+.sectionTwo{
+    height: 70vh;
+    width: 100%;
+    /* background: orange; */
+    padding: 20px;
+}
+
+
+/* ========================== HERO 2 =========================== */
+.hero_2{
+    background-image: url(../images/home-education-1.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       display: flex;
+       /* justify-content: start; */
+       align-items: center;
+}
+.about_company h3{
+    text-transform: uppercase;
+}
+.about_company h1{
+         font-size: 38px;
+         letter-spacing: 2px;
+         padding-top: 20px;
+         font-weight: bolder;
+
+}
+.about_company p{
+    padding: 20px 0;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.about_company button{
+   display: flex;
+   justify-content: center;
+   height: 50px;
+   margin: 25px 0;
+   font-size: 16px;
+   width: 180px;
+   border-radius: 5px;
+   background-color: #c98a15;
+   border: none;
+   color: #000000;
+   font-family: 'Roboto' sans-serif;
+   font-weight: bolder;
+   align-items: center;
+   cursor: pointer;
+}
+.about_company button .arrowIcon{
+    margin: 0 10px;
+}
+.about_company ul li{
+    list-style: none;
+    display: flex;
+}
+
+.news_input{
+    width: 80%;
+    height: 40px;
+    outline: none;
+}
+.news_submit{
+    width: 100px;
+    height: 40px;
+    background-color: #c98a15;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif;
+}
+.news_input::placeholder{
+    font-size: 14px;
+    /* text-transform: uppercase; */
+}
+.news_input[type=text]{
+    padding-left: 20px;
+    color: #000000;
+    font-size: 14px;
+}
+.subscribe{
+    display: flex;
+    padding: 15px 0;
+}

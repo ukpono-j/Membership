@@ -1,0 +1,85 @@
+.check_body{
+    /* margin: 30px  0; */
+    height: 70vh;
+    width: 100%;
+    background-color: #0d1824;
+    color: #fff;
+    box-shadow: 0 0 .2rem #0d1824,
+    0 0 .2rem #0d1824,
+    inset 0 0 1.3rem #0d1824;
+    border-radius: 10px;
+    /* display: flex; */
+    padding: 30px;
+}
+.check_flex{
+    display: flex;
+    padding: 30px 0;
+    height: 100%;
+}
+.bd1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bd1 input{
+    height: 40px;
+    width: 70%;
+    margin: 0 13px;
+}
+.bd1 input[type=text]{
+    padding-left: 24px;
+    outline: none;
+    font-size: 14px;
+}
+.bd2{
+    height: 70vh;
+    width: 100%;
+}
+.bd2 h4{
+    padding-top: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.bd2 p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.confirm_btn .submit{
+   height: 30px;
+   /* display: block; */
+   width: 130px;
+   /* padding: 20px; */
+   background-color: #F2A71B;
+   border: none;
+   margin: 10px;
+   color: #fff;
+   font-weight: 700;
+   font-size: 16px;
+   cursor: pointer;
+}
+.confirm_btn{
+    display: flex;
+    margin-left: 183px;
+    margin: 30px 0 10px 150px;
+    cursor: pointer;
+}
+@media  screen and (max-width: 786px) {
+    .check_flex{
+        display: block;
+    }
+    .check_body{
+        height: 100%;
+    }
+    .bd2{
+        height: 100%;
+    }
+    .confirm_btn{
+        display: flex;
+        margin-left: 183px;
+        margin: 30px 0 10px 0px;
+    }
+}

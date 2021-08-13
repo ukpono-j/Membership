@@ -1,0 +1,25 @@
+.analyst div{
+    height: 400px;
+    width: 400px;
+    background-color:#020d19;
+    padding: 10px;
+    box-shadow: 0 0 .2rem #0d1824,
+              0 0 .2rem #0d1824,
+              inset 0 0 1.3rem #0d1824;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+@media screen and (max-width: 786px){
+    /* //   display: block; */
+    .analyst div{
+        width: 100%;
+    }
+    .analyst_main{
+        padding: 20px;
+    }
+   }
