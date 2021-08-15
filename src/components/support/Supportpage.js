@@ -33,16 +33,16 @@ const Supportpage = () => {
                 <div className="sub_page">
                     <div className="sub_1">
                         <div>
-                            <img scr={logo} alt="logo"/>
-                            <h1>Getting Started</h1>
-                            <p>Walk through the basics of setting  up your  new Front account</p>
+                            {/* <img scr={logo} alt="logo"/> */}
+                            <h1>Accounts</h1>
+                            <p>Set up your account, learn about billing, and stay up-to-date on compliance policies</p>
                         </div>
                     </div>
                     <div className="sub_2">
                         <div>
-                        <img scr={logo} alt="logo"/>
-                           <h1> Using Front</h1>
-                            <p>Learn how to work in your new inbox and get the most out of front</p>
+                        {/* <img scr={logo} alt="logo"/> */}
+                           <h1> Audiences</h1>
+                           <p>Import contacts, create signup forms, and manage your Mailchimp audiences.</p>
                         </div>
                     </div>
 
@@ -51,16 +51,16 @@ const Supportpage = () => {
                 <div className="sub_page">
                     <div className="sub_3">
                         <div>
-                        <img scr={logo} alt="logo"/>
-                           <h1> Update and training</h1>
-                            <p>Get Front products, our favorite tips and hands-on help</p>
+                        {/* <img scr={logo} alt="logo"/> */}
+                           <h1>Automation</h1>
+                            <p><p>Automatically send purchase emails, welcome messages, and more.</p></p>
                         </div>
                     </div>
                     <div className="sub_4">
                         <div>
-                        <img scr={logo} alt="logo"/>
-                             <h1>Best Practices</h1>
-                            <p>master your FRONT layouts and workflow</p>
+                        {/* <img scr={logo} alt="logo"/> */}
+                             <h1>Email Delivery</h1>
+                            <p>Learn how we deliver email and how you can ensure contacts get your campaigns.</p>
                         </div>
                     </div>
                 </div>

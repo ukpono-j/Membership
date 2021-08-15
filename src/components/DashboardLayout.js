@@ -46,6 +46,7 @@ const DashboardLayoutContent = experimentalStyled('div')({
   overflow: 'auto',
   // padding: '30px',
   width: '100%',
+  background: '#0d1824',
 });
 
 const DashboardLayout = () => {
@@ -70,7 +71,7 @@ const DashboardLayout = () => {
         <DashboardLayoutContainer>
           <DashboardLayoutContent>
             {/* <Dashboard/> */}
-            <Dashboardbody />
+            {/* <Dashboardbody /> */}
             <Outlet />
           </DashboardLayoutContent>
         </DashboardLayoutContainer>

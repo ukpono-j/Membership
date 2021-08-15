@@ -39,6 +39,13 @@ const MainNavbar = (props) => {
               </RouterLink>
 
             </Box>
+             {/* <Box ml={4} display={{ xs: 'none', md: 'block' }}>
+              <RouterLink to="policies">
+                <Typography variant="body1" style={{color:theme.palette.primary.contrastText}}>
+                  Terms and Policies
+                </Typography>
+              </RouterLink>
+            </Box> */}
             {/* <Box ml={4} display={{ xs: 'none', md: 'block' }}>
               <RouterLink to="support">
                 <Typography variant="body1" style={{color:theme.palette.primary.contrastText}}>

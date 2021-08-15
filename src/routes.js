@@ -17,6 +17,8 @@ import Checkout from './components/checkout/CheckoutBody';
 import Success from './pages/Success';
 import Supportpage from './components/support/Supportpage';
 import Support from './pages/Support';
+import CheckoutBody from './components/checkout/CheckoutBody';
+import Policies from './components/policies/Policies';
 // import Subscription from 'src/pages/SubscriberList'
 
 
@@ -34,7 +36,7 @@ const routes = [
       { path: 'checkout', element: <Checkout /> },
       // {path: 'success', element: <Success/>},
       { path: 'support', element: <Supportpage /> },
-      { path: '*', element: <Navigate to="/404" /> }
+      // { path: '*', element: <Navigate to="/404" /> }
     ]
   },
   {
@@ -47,7 +49,10 @@ const routes = [
       { path: 'webhooks', element: <WebhookList /> },
       { path: 'dashboard', element: <Dashboard /> },
       { path: 'support', element: <Supportpage /> },
-      { path: '*', element: <Navigate to="/404" /> }
+      { path: 'checkout', element: <CheckoutBody /> },
+      { path: 'policies', element: <Policies/> },
+      { path: 'subscribe', element: <SubscriberList /> },
+      // { path: '*', element: <Navigate to="/404" /> }
       
     ]
   },

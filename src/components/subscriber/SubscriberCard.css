@@ -145,7 +145,7 @@
 .main_1,.main_2,.main_3{
     height: 50vh;
     width: 100%;
-    background-color: #0d1824;
+    background-color: #020d19;
     box-shadow: 0 0 .2rem #0d1824,
     0 0 .2rem #0d1824,
     inset 0 0 1.3rem #0d1824;
@@ -159,4 +159,12 @@
     color: #fff;
     text-align: center;
     padding-top: 60px;
+}
+
+
+@media screen and (max-width: 859px) {
+    .main{
+        flex-wrap: wrap;
+        padding: 0px !important;
+    }
 }

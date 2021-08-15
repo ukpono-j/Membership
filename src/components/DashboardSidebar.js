@@ -80,25 +80,36 @@ const items = [
     title: 'Webhooks'
   },
   {
-    href: '/subscriberlist',
+    href: '/dashboard/subscribe',
     icon: SubscriptionsIcon,
     title: 'Subscription'
   },
   {
-    href: '/checkout',
+    href: '/dashboard/checkout',
     icon: ShoppingCartIcon,
     title: 'Checkout'
   },
   {
-    href: '/support',
+
+    href: '/dashboard/support',
     icon: ShoppingBagIcon,
     title: 'Support'
   },
-  // {
-  //   href: '/account',
-  //   icon: UserIcon,
-  //   title: 'Account'
-  // },
+  {
+    href: '/dashboard/policies',
+    icon: UserIcon,
+    title: 'policies'
+  },
+  {
+    href: '/d',
+    icon: UserIcon,
+    title: 'login'
+  },
+  {
+    href: '/d',
+    icon: UserIcon,
+    title: 'Sign up'
+  },
   // {
   //   href: '/settings',
   //   icon: SettingsIcon,
