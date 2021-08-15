@@ -100,16 +100,16 @@ const items = [
     icon: UserIcon,
     title: 'policies'
   },
-  {
-    href: '/d',
-    icon: UserIcon,
-    title: 'login'
-  },
-  {
-    href: '/d',
-    icon: UserIcon,
-    title: 'Sign up'
-  },
+  // {
+  //   href: '/d',
+  //   icon: UserIcon,
+  //   title: 'login'
+  // },
+  // {
+  //   href: '/d',
+  //   icon: UserIcon,
+  //   title: 'Sign up'
+  // },
   // {
   //   href: '/settings',
   //   icon: SettingsIcon,

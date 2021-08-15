@@ -18,7 +18,7 @@ const Dashboard = () => (
     <Helmet>
       <title>Dashboard | Material Kit</title>
     </Helmet>
-    dashboard
+    {/* dashboard */}
   </>
 );
 

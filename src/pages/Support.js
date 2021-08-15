@@ -4,7 +4,6 @@ import Supportpage from 'src/components/support/Supportpage'
 const Support = () => {
     return (
         <div>
-            kjffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
             {/* <Supportpage /> */}
         </div>
     )

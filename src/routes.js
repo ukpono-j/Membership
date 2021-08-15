@@ -14,7 +14,7 @@ import Pricing from './pages/Pricing';
 import About from './pages/About';
 import SubscriberList from 'src/pages/SubscriberList'
 import Checkout from './components/checkout/CheckoutBody';
-import Success from './pages/Success';
+// import Success from './pages/Success';
 import Supportpage from './components/support/Supportpage';
 import Support from './pages/Support';
 import CheckoutBody from './components/checkout/CheckoutBody';

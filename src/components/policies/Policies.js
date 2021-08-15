@@ -1,7 +1,12 @@
 import React from 'react'
+// ============ STYLED COMPONENT IMPORT =======================
 import styled from 'styled-components'
+
+// ================ EXTERNAL CSS STYLIING ===========================
 import './Policies.css'
 
+
+// =============================== STYLED COMPONENTS =================================
 const Terms = styled.div`
    color: #fff;
    padding: 20px;
@@ -15,13 +20,16 @@ const Title = styled.div`
 const Content = styled.div`
    padding-top: 20px;
 `
+// ============================ END OF STYLED COMPONENTS =================================
 
 const Policies = () => {
     return (
         <div>
+            {/* ========== STYLED ELEMENT ================= */}
             <Terms>
                 <Title>TERMS AND CONDITIONS</Title>
                 <p>Last Updated</p>
+                {/* ================= ELEMENT 1 ======================== */}
                 <Content className="content">
                     <h3>1. Introduction</h3>
                     <p>Welcome to read (“Company”, “we”, “our”, “us”)!</p>
@@ -39,6 +47,8 @@ const Policies = () => {
                         If you do not agree with (or cannot comply with) Agreements, then you may not use the Service, but please let us know by emailing at ukponoakpan270@gmail.com so we can try to find a solution. These Terms apply to all visitors, users and others who wish to access or use Service.
                     </p>
                 </Content>
+                {/* ================= ELEMENT 2 ======================== */}
+
                 <Content className="content">
                     <h3>2. Communications</h3>
                     <p>
@@ -57,6 +67,8 @@ const Policies = () => {
                         We may employ the use of third party services for the purpose of facilitating payment and the completion of Purchases. By submitting your information, you grant us the right to provide the information to these third parties subject to our Privacy Policy.
                     </p>
                 </Content>
+                {/* ================= ELEMENT 3 ======================== */}
+
                 <Content className="content">
                     <h3>4. Subscription</h3>
                     <p>
@@ -72,6 +84,8 @@ const Policies = () => {
 
                     </p>
                 </Content>
+                {/* ================= ELEMENT 4 ======================== */}
+
                 <Content className="content">
                     <h3>5.  Prohibited Uses</h3>
                     <p>
