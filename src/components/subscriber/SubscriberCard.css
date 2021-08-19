@@ -149,9 +149,11 @@
     box-shadow: 0 0 .2rem #0d1824,
     0 0 .2rem #0d1824,
     inset 0 0 1.3rem #0d1824;
+    font-size: 20px;
     border-radius: 10px;
    /* color: rgb(178, 178, 178); */
     color: #fff;
+    text-align: center;
     padding: 20px;
     margin: 20px;
 }

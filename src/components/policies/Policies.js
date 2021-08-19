@@ -105,7 +105,7 @@ const Policies = () => {
                     </p>
 
                 </Content>
-
+              <button className="policies_btn">I Agree</button>
             </Terms>
 
         </div>

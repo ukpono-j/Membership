@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import './SubscriberCard.css'
-import CheckCircleOutlineRoundedIcon from '@material-ui/icons/CheckCircleOutlineRounded';
+// import CheckCircleOutlineRoundedIcon from '@material-ui/icons/CheckCircleOutlineRounded';
 // import {icons} from 'src/components/aboutpage/images/credit-2389154_960_720.png'
 const CardSub = styled.div`
     height: auto;
