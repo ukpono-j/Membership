@@ -28,10 +28,10 @@ const Policies = () => {
             {/* ========== STYLED ELEMENT ================= */}
             <Terms>
                 <Title>TERMS AND CONDITIONS</Title>
-                <p>Last Updated</p>
+                <p className="condition">Last Updated</p>
                 {/* ================= ELEMENT 1 ======================== */}
                 <Content className="content">
-                    <h3>1. Introduction</h3>
+                    <h1>1. Introduction</h1>
                     <p>Welcome to read (“Company”, “we”, “our”, “us”)!</p>
                     <p>
                         These Terms of Service (“Terms”, “Terms of Service”) govern your use of our website located at read.com (together or individually “Service”) operated by read.
@@ -44,24 +44,26 @@ const Policies = () => {
                         Your agreement with us includes these Terms and our Privacy Policy (“Agreements”). You acknowledge that you have read and understood Agreements, and agree to be bound of them.
                     </p>
                     <p>
-                        If you do not agree with (or cannot comply with) Agreements, then you may not use the Service, but please let us know by emailing at ukponoakpan270@gmail.com so we can try to find a solution. These Terms apply to all visitors, users and others who wish to access or use Service.
+                        If you do not agree with (or cannot comply with) Agreements, then you may not use the Service, but please let us know by emailing at preciousakpan@gmail.com so we can try to find a solution. These Terms apply to all visitors, users and others who wish to access or use Service.
                     </p>
                 </Content>
                 {/* ================= ELEMENT 2 ======================== */}
 
                 <Content className="content">
-                    <h3>2. Communications</h3>
+                    <h1>2. Communications</h1>
                     <p>
                         By using our Service, you agree to subscribe to newsletters, marketing or promotional materials and other information we may send. However, you may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or by emailing at ukponoakpan270@gmail.com.
                     </p>
                 </Content>
                 <Content className="content">
-                    <h3>3. Purchases</h3>
+                    <h1>3. Purchases</h1>
                     <p>
                         If you wish to purchase any product or service made available through Service (“Purchase”), you may be asked to supply certain information relevant to your Purchase including but not limited to, your credit or debit card number, the expiration date of your card, your billing address, and your shipping information.
                     </p>
                     <p>
-                        You represent and warrant that: (i) you have the legal right to use any card(s) or other payment method(s) in connection with any Purchase; and that (ii) the information you supply to us is true, correct and complete.
+                        You represent and warrant that:
+                         (i) you have the legal right to use any card(s) or other payment method(s) in connection with any Purchase; and that 
+                         (ii) the information you supply to us is true, correct and complete.
                     </p>
                     <p>
                         We may employ the use of third party services for the purpose of facilitating payment and the completion of Purchases. By submitting your information, you grant us the right to provide the information to these third parties subject to our Privacy Policy.
@@ -70,7 +72,7 @@ const Policies = () => {
                 {/* ================= ELEMENT 3 ======================== */}
 
                 <Content className="content">
-                    <h3>4. Subscription</h3>
+                    <h1>4. Subscription</h1>
                     <p>
                         Some parts of Service are billed on a subscription basis ("Subscription(s)"). You will be billed in advance on a recurring and periodic basis ("Billing Cycle"). Billing cycles will be set depending on the type of subscription plan you select when purchasing a Subscription.
                     </p>
@@ -87,7 +89,7 @@ const Policies = () => {
                 {/* ================= ELEMENT 4 ======================== */}
 
                 <Content className="content">
-                    <h3>5.  Prohibited Uses</h3>
+                    <h1>5.  Prohibited Uses</h1>
                     <p>
                         You may use Service only for lawful purposes and in accordance with Terms. You agree not to use Service:
                     </p>

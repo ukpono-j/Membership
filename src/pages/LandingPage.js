@@ -6,6 +6,7 @@ import LeftTextRightImageSection from 'src/components/landingpage/Layouts/LeftTe
 import RightTextLeftImageSection from 'src/components/landingpage/Layouts/RightTextLeftImageSection'
 import { Helmet } from 'react-helmet'
 import WhatWeDoSection from 'src/components/landingpage/Layouts/WhatWeDoSection'
+import Footer from 'src/components/landingpage/Layouts/Footer'
 
 
 
@@ -51,12 +52,12 @@ export default function LandingPage() {
               <Box>
                   <RightTextLeftImageSection/>
               </Box>
-
-
               <Box>
                 <WhatWeDoSection/>
               </Box>
-
+              <Box>
+                <Footer />
+              </Box>
           </Container>
         </Box>
       </>

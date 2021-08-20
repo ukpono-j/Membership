@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
-
+.condition{
+    padding-top: 30px;
+    padding-left: 24px;
+}
 .policies_btn{
     height: 40px;
     width: 100px;
@@ -7,4 +10,9 @@
     background-color: #F2A71B;
     border: none;
     color: white;
+    border-radius: 10px;
+}
+.content h1{
+    line-height: 50px;
+    font-size: 30px;
 }

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.footer{
+    height: 30vh;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 200px;
+}
+.footer div{
+    
+    /* background-color: red; */
+    /* width: 100%; */
+    height: auto;
+}
+.footer-content{
+    width: 50%;
+    line-height: 26px;
+}
+.footer-content p{
+    padding-top: 10px;
+}
+.footer h1{
+    font-size: 16px;
+}
+.link ul li{
+    list-style: none;
+    line-height: 27px;
+}
+.link ul{
+    padding-top: 10px;
+}
